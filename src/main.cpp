@@ -33,13 +33,12 @@ int main(int argc, char *argv[])
 {
 
     thinger_device thing(USER_ID, DEVICE_ID, DEVICE_CREDENTIAL);
-
-
-    thing["sum"] = [](pson& in, pson& out){
+    
+    thing["voltage"] = [](pson& in, pson& out){
         out["result"] = rand() % 20;
     };
 
-    thing["sum2"] = [](pson& in, pson& out){
+    thing["consumption"] = [](pson& in, pson& out){
         out["result"] = rand() % 20;
     };
 
