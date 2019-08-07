@@ -25,9 +25,9 @@
 #include <time.h>
 #include <stdlib.h>
 
-#define USER_ID             "lmokto"
-#define DEVICE_ID           "asdasd"
-#define DEVICE_CREDENTIAL   "slg33N0esC6H"
+#define USER_ID             "NAME"
+#define DEVICE_ID           "ACCOUNT"
+#define DEVICE_CREDENTIAL   "TOKEN"
 
 int main(int argc, char *argv[])
 {
